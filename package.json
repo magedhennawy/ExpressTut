@@ -3,23 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "description": "Express Tutorial",
-  "main": "index.js",
+  "main": "expresstut.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maged Hennawy",
+  "author": "Derek Banas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/magedhennawy/ExpressTut.git"
-  },
-  "bugs": {
-    "url": "https://github.com/magedhennawy/ExpressTut/issues"
-  },
-  "homepage": "https://github.com/magedhennawy/ExpressTut#readme"
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "formidable": "^1.0.17",
+    "fs": "0.0.2",
+    "parseurl": "^1.3.0"
+  }
 }
